@@ -1,0 +1,54 @@
+ul li{
+    list-style-type: none;
+    display: inline;
+    position: relative;
+    
+}
+ul{
+    list-style-type: none;
+    display: inline;
+
+}
+li{
+    padding-right: 6.8em;
+}
+ul li a{
+    color: rgb(236, 233, 233);
+}
+
+
+#header{
+    background-color: rgb(8, 4, 4);
+    text-align:left;
+    text-align:inherit;
+    padding: 1.0rem;
+}
+.web{
+    background-color: rgb(41, 123, 41);
+    margin: 20px 60px ;
+    padding: 10%;
+}
+.cprg{
+    background-color: rgb(78, 141, 160);
+    margin: 20px 60px ;
+    padding: 10%;
+}
+
+.search{
+    float:right;
+    /* margin:7px; */
+    width: max-content;
+    border-radius: 40px;
+}
+
+.search button{
+    background-color: #141415;
+    color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 10px;
+    border: none;
+   
+    cursor: pointer;
+}
